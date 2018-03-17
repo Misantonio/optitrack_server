@@ -1,0 +1,23 @@
+﻿Compilación iniciada a las 16/03/2018 10:30:10 a.m..
+     1>Proyecto "C:\Users\Móviles\Desktop\optitrack_server\optitrack_server\optitrack_server.vcxproj" en el nodo 2 (build destinos).
+     1>InitializeBuildStatus:
+         Se creará "Debug\optitrack_server.unsuccessfulbuild" porque se especificó "AlwaysCreate".
+       ClCompile:
+         Todas las salidas están actualizadas.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\optitrack_server.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt optitrack_server.cpp
+         optitrack_server.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Móviles\Desktop\optitrack_server\Debug\optitrack_server.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\Móviles\Desktop\optitrack_server\\vrpn\pc_win32\Debug" /LIBPATH:"C:\Users\Móviles\Desktop\optitrack_server\\vrpn\quat\pc_win32\Debug" "C:\Users\Móviles\Desktop\optitrack_server\vrpn\pc_win32\Debug\vrpn.lib" "C:\Users\Móviles\Desktop\optitrack_server\\vrpn\quat\pc_win32\Debug\quat.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\optitrack_server.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Móviles\Desktop\optitrack_server\Debug\optitrack_server.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Móviles\Desktop\optitrack_server\Debug\optitrack_server.lib" /MACHINE:X86 Debug\optitrack_server.obj
+         Debug\stdafx.obj
+     1>optitrack_server.obj : warning LNK4075: se omite '/EDITANDCONTINUE' debido a la especificación '/INCREMENTAL:NO'
+         optitrack_server.vcxproj -> C:\Users\Móviles\Desktop\optitrack_server\Debug\optitrack_server.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Móviles\Desktop\optitrack_server\Debug\optitrack_server.exe;#1" /manifest Debug\optitrack_server.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Se eliminará el archivo "Debug\optitrack_server.unsuccessfulbuild".
+         Aplicando tarea Touch a "Debug\optitrack_server.lastbuildstate".
+     1>Compilación del proyecto terminada "C:\Users\Móviles\Desktop\optitrack_server\optitrack_server\optitrack_server.vcxproj" (build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:01.03
